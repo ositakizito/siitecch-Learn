@@ -1,0 +1,79 @@
+{
+  "short_name": "Siitecch",
+  "name": "Siitecch - Learn Full-stack JavaScript Development",
+  "icons": [
+    {
+      "src": "images/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "images/siitecch_1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/siitecch_1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/siitecch_1.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/index",
+  "display": "standalone",
+  "theme_color": "#3B82F6",
+  "background_color": "#F1F5F9",
+  "description": "Siitecch is a platform for aspiring developers to master full-stack JavaScript development with a step-by-step guide from frontend to backend.",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["education", "technology", "development"],
+  "lang": "en",
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "images/screenshot-homepage.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "description": "Siitecch Homepage"
+    },
+    {
+      "src": "images/screenshot-dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "description": "Siitecch Dashboard"
+    },
+    {
+      "src": "images/screenshot-courses.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "description": "Siitecch Courses Page"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Siitecch",
+      "short_name": "Siitecch",
+      "description": "Jump right into Siitecch learning content",
+      "url": "/index",
+      "icons": [
+        {
+          "src": "images/shortcut-learn.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "siitecch",
+      "id": "com.siitecch.app"
+    }
+  ],
+  "prefer_related_applications": true
+}
