@@ -10,5 +10,3 @@ Allow: /cookies/
 Allow: /sitemap/
 Allow: /about developer/
 
-Sitemap: https://domain.com/sitemap.xml
-
