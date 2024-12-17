@@ -8,5 +8,5 @@ Allow: /support/
 Allow: /faq/
 Allow: /cookies/
 Allow: /sitemap/
-Allow: /about developer/
+Allow: /developer/
 
