@@ -145,13 +145,6 @@ header .social-handle button.button-hover.times:hover {
   color: var(--white);
 }
 
-
-
-
-
-
-
-
 /* end of header */
 /* homePage started */
 nav.navbar {
@@ -160,9 +153,7 @@ nav.navbar {
   color: var(--white);
   display: flex;
   flex-direction: column;
-  align-items: left;
-  justify-content: left;
-  text-align: left;
+  text-align: center;
   height: auto;
 
 }
@@ -299,9 +290,184 @@ section.materials section.ends .line-width .line-color.center {
   margin: 0 auto;
 }
 
+section.materials .flex-container.about {
+  padding: 10px;
+  text-align: justify;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+section.materials .flex-container.about .aboutUs.head h1 {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Moirai One", system-ui;
+}
+
+section.materials .aboutCircle {
+  display: flex;
+  align-items: center;
+}
+
+section.materials .flex-container.about .link {
+  color: var(--bgdark);
+}
+
+section.materials .flex-container.about section.code_image {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+section.materials .flex-container.about section.code_image img {
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+section.materials .aboutCircle .check {
+  background-color: var(--blueSocial);
+  border-radius: 50px;
+  color: var(--white);
+  padding: 5px 8px;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin: 5px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+section.materials .aboutCircle .checkWrite {
+  padding: 10px 5px;
+  justify-content: center;
+  width: 100%;
+  text-align: justify;
+}
+
+
+section.materials .flex-container.about .feature_box {
+  background-color: var(--greenbtn);
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 100%;
+  height: 30vh;
+  align-items: left;
+  justify-content: center;
+  padding: 10px;
+}
+section.materials .flex-container.about .aboutUs p{
+
+}
+section.materials .flex-container.about .about_feature{
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+section.materials .flex-container.about .aboutUs.feature p{
+  /* margin-bottom: 20px; */
+  padding: 10px 0px;
+}
+
+section.materials .flex-container.about .feature_box.one {
+  background-color: var(--kind0fdarkblue);
+}
+
+section.materials .flex-container.about .feature_box.two {
+  background-color: var(--redy);
+}
+
+section.materials .feature_below .feature_box.below {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+section.materials .flex-container.about .feature_box .test_image {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  font-size: 10px;
+}
+/* based on services */
+section.materials .flex-container.about .feature_box .test_image .service-logo{
+ width: 50px;
+ height: 50px;
+ font-size: 25px;
+ border: 1px solid var(--blueSocial);
+ align-items: center;
+ color: var(--blueSocial);
+ display: flex;
+ justify-content: center;
+}
+
+section.materials .flex-container.about .feature_box .test_image .image_details .img img {
+  width: 50%;
+  margin: 10px;
+}
+
+section.materials .flex-container.about .feature_box .test_image .image_details{
+ padding: 10px;
+ 
+}
+
+section.materials .flex-container.about .feature_box.three {
+  background-color: var(--footerbtn);
+  height: auto;
+  color: var(--gray);
+}
+section.materials .flex-container.about .feature_box.three form{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto; 
+  width: 100%;
+}
+section.materials .flex-container.about .feature_box.three form .inputStyle{
+  padding: 14px 8px;
+  margin: 5px;
+  border: 1px solid var(--bgdark);
+  outline-color: var(--blueSocial);
+}
+section.materials .flex-container.about .feature_box.three form .inputStyle.btn{
+  background-color: var(--blueSocial);
+  border: none;
+  color: var(--white);
+}
+section.materials .flex-container.about .feature_box .test_details {
+  padding: 10px;
+  font-size: 14px;
+}
+
+section.materials  section.total-students .single{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 8px;
+  height: 30vh;
+}
+section.materials  section.total-students .figure{
+  font-size: 150%;
+  font-weight: 600;
+}
+section.materials  section.total-students .line{
+  color: var(--greenICON);
+  font-size: 30px;
+}
+
 /* footer page */
 footer {
-  background-color: var(--footerbg);
+  background-color: var(--bgdark);
   padding: 10px 8px;
 
 }
@@ -630,6 +796,7 @@ section.card {
   display: flex;
   flex-direction: column;
   background-color: var(--white);
+  width: 100%;
   transition: all 0.3s ease;
 }
 
@@ -786,7 +953,7 @@ form.user .password-container {
 
 nav.navbar .bottomBtn {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 
@@ -794,10 +961,19 @@ nav.navbar .bottomBtn button {
   margin: 5px;
   padding: 10px 12px;
   border: none;
-  width: 40%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
   color: var(---bglight);
-  background-color: var(--greenbtn);
-  border-radius: 10px;
+  border: 1px solid var(--white);
+  background-color: unset;
+  border-radius: 50px;
+}
+
+nav.navbar .bottomBtn button.playbtn {
+  border: none;
 }
 
 nav.navbar .bottomBtn button .link {
@@ -1013,6 +1189,19 @@ section.profile.dark .profile-info .student-email {
 
 .popup.dark {
   background-color: var(--bgdark2);
+}
+section.materials .flex-container.about.dark .feature_box.three{
+  background-color: var(--bgdark);
+  color: var(--white);
+}
+section.materials .flex-container.about.dark .feature_box.three form .inputStyle{
+  background-color: var(--bgdark);
+  color: var(--white);
+  border: 1px solid var(---bglight);
+}
+section.materials .flex-container.about.dark .feature_box.three form .inputStyle.btn{
+  background-color: var(--blueSocial);
+  border: none;
 }
 
 

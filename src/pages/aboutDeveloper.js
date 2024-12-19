@@ -2,7 +2,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 
 export default function AboutDeveloper() {
-    const linkedInProfilePic = "https://media.licdn.com/dms/image/v2/D4D35AQERL4hRpUriUA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1692652073075?e=1733490000&v=beta&t=9DzPakx-XxVZpQMckfm-7vr4KwYwyiYMrBNOSR8311s";
+    const linkedInProfilePic = "https://media.licdn.com/dms/image/v2/D4D35AQERL4hRpUriUA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1692652073075?e=1734742800&v=beta&t=ckf7t8UsFemgKB7OoXPTySUxMeh4iyjN_DrO_C32aeM";
 
     return (
         <>
