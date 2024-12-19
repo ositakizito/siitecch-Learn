@@ -14,7 +14,7 @@ export default function Footer() {
   const faceBook = "https://web.facebook.com/profile.php?id=100076062997043";
   const Twitter = "https://x.com/siitecch";
   const linkedIn = "https://www.linkedin.com/in/christopher-osita-46b4b6202/";
-  const GitHub = "https://github.com/ositakizito";
+  const GitHub = "https://github.com/osita-dev";
   return (
     <>
       <footer className={`footer ${theme}`}>
