@@ -471,7 +471,7 @@ export default function HomePage() {
 
             <section className="materials">
                 <section className="ends">
-                    <h3>Get In Touch</h3>
+                    <h3>Send Us Feedback</h3>
                     <div className="line-width">
                         <div className="line-color"></div>
                     </div>
